@@ -1,0 +1,102 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: yellow;
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(32, 12, 12);
+  font-size: 30px;
+  top: 0px;
+  position: sticky;
+  color: aliceblue;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 50px;
+}
+
+
+.linklist button {
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: cyan;
+}
+
+.linklist {
+  margin-right: 20px;
+}
+
+.logo-text {
+  margin: 5px;
+  font-weight: 600;
+}
+
+table,
+th,
+tr,
+td,
+li {
+  border: 1px solid black;
+}
+
+table {
+  display: contents;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.table-containers {
+  width: 600px;
+  height: 600px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+table tbody tr ul::first-line {
+  color: rgb(133, 45, 177);
+}
+section {
+  margin: 50px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+h2{
+  padding-top: 100px;
+}
+.registration-form{
+width: 600px;
+height: 600px;
+}
